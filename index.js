@@ -16,6 +16,6 @@ function currentLine(katzDeliLine) {
   }
   else {
     return (`The line is currently: ) &&
-    while ${katzDeliLine.length}. ${katzDeliLine.shift()}`)
+    while (katzDeliLine > 0${katzDeliLine.length}. ${katzDeliLine.shift()}`)
     }
 }
