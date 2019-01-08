@@ -19,7 +19,7 @@ function currentLine(katzDeliLine) {
   else {
     while (katzDeliLine > 0)
     return (`The line is currently: ${katzDeliLine[i]}. ${katzDeliLine.shift()}`);
-    ii+;
+    ii+
   }
 }
 }
