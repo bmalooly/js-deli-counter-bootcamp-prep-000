@@ -16,8 +16,6 @@ function currentLine(katzDeliLine) {
     return "The line is currently empty."
   }
   else {
-    return (`The line is currently: `) &&
-    while (katzDeliLine > 0) {
-      `${katzDeliLine.length}. ${katzDeliLine.shift()}`)
+    return (`The line is currently: ${katzDeliLine.length}. ${katzDeliLine.shift()}`)
     }
 }
